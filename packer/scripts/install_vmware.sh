@@ -1,4 +1,5 @@
 #!/bin/bash
 
-apt-get update
+set -x
+
 apt-get install -y open-vm-tools
